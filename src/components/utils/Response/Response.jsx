@@ -1,11 +1,21 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { ResponseResult,ResponseSectionWrapper } from './Response.elements';
+import {Spinner} from '../../utils/Loader.element';
 
-export const Response = ({Url,Params,Request,Headers}) => {
+export const Response = ({url,params,req,header}) => {
+    
+     useEffect(() => {
+           <Spinner/>
+         return () => {
+             
+         }
+     }, [url,params,req,header]);
+
     return (
         <ResponseSectionWrapper>
         <ResponseResult>
-            curl --location 
+            curl --location --request {req} '{url}?{params}' \<br /> 
+            --header  {header} 
         </ResponseResult>
       </ResponseSectionWrapper>
     )

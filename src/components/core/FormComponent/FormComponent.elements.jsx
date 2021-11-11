@@ -21,6 +21,8 @@ export const InputBox= styled.input`
   height: 24px;
   padding: 1rem;
   border-radius: 10px;
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
 `
 
 export const InputItem = styled.div`
@@ -36,5 +38,7 @@ export const SelectBox=styled.select`
   margin: 0.5rem;
   padding: 0.5rem;
   border-radius: 10px;
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
 `
 

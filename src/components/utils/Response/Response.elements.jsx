@@ -12,4 +12,5 @@ export const ResponseSectionWrapper=styled.div`
 export const ResponseResult = styled.p`
  padding:0.5rem;
  font-family: 'Fira Code', monospace;
+ line-height: 1.8;
 `
