@@ -14,6 +14,7 @@ export const SectionDetails=styled.p`
 font-size: 0.8rem;
 font-weight:bold;
 padding: 0.5rem;
+margin: 0.5rem;
 `
 
 export const InputDetails=styled.input`
