@@ -1,8 +1,14 @@
 import React from 'react'
-import {LinkButton} from './Btn.elements';
+import {LinkButton,BtnLink} from './Btn.elements';
 
-export const Btn = ({btnName}) => {
+export const Btn = ({btnName,LinkName}) => {
+    const path=`/${LinkName}`
+
     return (
-         <LinkButton>{btnName}</LinkButton>
+         <BtnLink to={path}>
+         <LinkButton >
+         {btnName}
+         </LinkButton>
+         </BtnLink>
     )
 }

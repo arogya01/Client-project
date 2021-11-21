@@ -9,7 +9,7 @@ const Sidebar = () => {
         <SidebarContainer>
           {
          componentsName.map(component => {
-          return <Btn key={component.name} btnName={component.name} />
+          return <Btn key={component.name} btnName={component.name} LinkName={component.name} />
           })    
           }
         </SidebarContainer>

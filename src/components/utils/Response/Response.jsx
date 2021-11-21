@@ -1,15 +1,15 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import { ResponseResult,ResponseSectionWrapper } from './Response.elements';
-import {Spinner} from '../../utils/Loader.element';
+// import {Spinner} from '../../utils/Loader.element';
 
 export const Response = ({url,params,req,header}) => {
     
-     useEffect(() => {
-           <Spinner/>
-         return () => {
+    //  useEffect(() => {
+    //        <Spinner/>
+    //      return () => {
              
-         }
-     }, [url,params,req,header]);
+    //      }
+    //  }, [url,params,req,header]);
 
     return (
         <ResponseSectionWrapper>

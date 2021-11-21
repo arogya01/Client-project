@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import {Link} from 'react-router-dom';
 
 export const LinkButton = styled.button`
 font-weight: bold;
@@ -15,4 +15,10 @@ font-weight: bold;
  &:hover{
      background-color: white;
  }
+`
+
+export const BtnLink=styled(Link)`
+    text-decoration: none;
+    font-weight: bold;
+    
 `
