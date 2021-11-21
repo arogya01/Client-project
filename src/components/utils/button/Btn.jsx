@@ -5,10 +5,6 @@ export const Btn = ({btnName,LinkName}) => {
     const path=`/${LinkName}`
 
     return (
-         <BtnLink to={path}>
-         <LinkButton >
-         {btnName}
-         </LinkButton>
-         </BtnLink>
+         <LinkButton >{btnName}</LinkButton>
     )
 }

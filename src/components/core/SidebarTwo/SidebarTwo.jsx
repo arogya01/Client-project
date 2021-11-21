@@ -2,6 +2,7 @@ import React from 'react'
 import componentsName from '../../../sidebarTwo.json';
 import { SidebarContainerWrapper } from './SidebarTwo.elements';
 import { Btn } from '../../utils/button/Btn';
+import CTA from '../../utils/CTA/CTA';
 
 const SidebarTwo = () => {
     return (
@@ -11,6 +12,7 @@ const SidebarTwo = () => {
           return <Btn key={component.name} btnName={component.name} />
           })    
           }
+        <CTA />
         </SidebarContainerWrapper>
     )
 }
