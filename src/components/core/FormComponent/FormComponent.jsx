@@ -3,9 +3,8 @@ import {
   InputBox,
   FormComponentWrapper,
   InputItem,
-  InputLabel,
-  SelectBox,
 } from "./FormComponent.elements";
+import { InputLabel, SelectBox } from "../../../global.elements";
 import { Response } from "../../utils/Response/Response";
 import { LinkButton } from "../../utils/button/Btn.elements";
 
@@ -74,7 +73,7 @@ const FormComponent = () => {
 
       <InputItem>
         <InputLabel>Request Type</InputLabel>
-        <SelectBox id="req" value={req} onChange={handleChange}>
+        <SelectBox id="req" value={req} onChange={handleChange} width="656px">
           <option hidden>Type</option>
           <option value="GET">GET</option>
           <option value="POST">POST</option>
