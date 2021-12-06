@@ -1,5 +1,18 @@
 [
-    {
+  
+      {
+        "serviceName": "Search Group",
+        "options": ["prg-A", "prg-B", "prg-C"]
+      },
+      {
+        "serviceName": "Search Service",
+        "options": ["svc1", "svc2", "svc3"]
+      },
+      {
+        "serviceName": "Environment",
+        "options": ["stg", "prd", "test"]
+      }
     
-    }
+  
+ 
 ]
