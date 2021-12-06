@@ -1,5 +1,5 @@
 import React from 'react'
-import componentsName from '../../../sidebarTwo.json';
+import componentsName from '../../../data/sidebarTwo.json';
 import { SidebarContainerWrapper } from './SidebarTwo.elements';
 import { Btn } from '../../utils/button/Btn';
 import CTA from '../../utils/CTA/CTA';
@@ -9,7 +9,7 @@ const SidebarTwo = () => {
         <SidebarContainerWrapper>
              {
          componentsName.map(component => {
-          return <Btn key={component.name} btnName={component.name} />
+          return <Btn key={component.name} btnName={component.name} linkName={component.route}/>
           })    
           }
         <CTA />
