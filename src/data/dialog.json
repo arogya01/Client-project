@@ -1,0 +1,14 @@
+[
+    
+        {
+            "label":"Create Configuration",
+            "name":"configRadio",
+            "btnId":"radio-1"
+        },
+        {
+            "label":"Import Configuration",
+            "name":"configRadio",
+            "btnId":"radio-2"
+        }
+    
+]
