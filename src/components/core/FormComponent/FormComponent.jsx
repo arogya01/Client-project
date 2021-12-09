@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import {
-  InputBox,
   FormComponentWrapper,
-  InputItem,
 } from "./FormComponent.elements";
-import { InputLabel, SelectBox } from "../../../global.elements";
-import { Response } from "../../utils/Response/Response";
+import { InputLabel, SelectBox, InputBox , InputItem } from "../../../global.elements";
+import { Terminal } from "../../utils/Terminal/Terminal";
 import { LinkButton } from "../../utils/button/Btn.elements";
 
 const FormComponent = () => {
@@ -41,6 +39,7 @@ const FormComponent = () => {
       <InputItem>
         <InputLabel>URL</InputLabel>
         <InputBox
+          width="620px"
           id="url"
           placeholder="URL"
           type="text"
@@ -52,6 +51,7 @@ const FormComponent = () => {
       <InputItem>
         <InputLabel>Headers</InputLabel>
         <InputBox
+          width="620px"
           id="header"
           placeholder="Header"
           type="text"
@@ -63,6 +63,7 @@ const FormComponent = () => {
       <InputItem>
         <InputLabel>Params</InputLabel>
         <InputBox
+          width="620px"
           id="params"
           placeholder="params"
           type="text"
@@ -91,7 +92,7 @@ const FormComponent = () => {
       </LinkButton>
 
       {btnClicked && (
-        <Response url={url} params={params} header={header} req={req} />
+        <Terminal url={url} params={params} header={header} req={req} />
       )}
     </FormComponentWrapper>
   );
