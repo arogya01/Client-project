@@ -1,0 +1,20 @@
+[
+    
+    {
+        "label":"Rest",
+        "name":"Mode",
+        "btnId":"mode-1"
+    },
+    
+    {
+        "label":"Queue",
+        "name":"Mode",
+        "btnId":"mode-2"
+    },
+    
+    {
+        "label":"DB",
+        "name":"Mode",
+        "btnId":"mode-3"
+    }
+]
