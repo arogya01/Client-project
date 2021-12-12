@@ -11,7 +11,7 @@ export const Terminal = ({url,params,req,header}) => {
     //      }
     //  }, [url,params,req,header]);
 
-    return (
+    return ( 
         <ResponseSectionWrapper>
         <ResponseResult>
             curl --location --request {req} '{url}?{params}' \<br /> 
