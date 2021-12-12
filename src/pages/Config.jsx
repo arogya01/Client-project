@@ -9,7 +9,6 @@ import Table from "../components/core/Table/Table";
 
 const onValueChange = (newValue, setValue) => {
   setValue(newValue);
-
 };
 
 const checkUp= (value) =>{
@@ -36,7 +35,7 @@ const Config = () => {
           options={configData[0].options}
           value={valueOne}
           setValue={setValueOne}
-          onChange={onValueChange}
+          onValueChange={onValueChange}
         />
         <Dropdown
           serviceName={configData[1].serviceName}
