@@ -13,7 +13,7 @@ input[type="checkbox"] {
   display: block;
   height: 36px;
   width: 100px;
-  background-color: #ecea7a;
+  background-color:  rgb(87, 80, 80);
   border-radius: 100px;
   position: relative;
   cursor: pointer;
@@ -39,5 +39,5 @@ input[type="checkbox"] {
 }
 
 #switch:checked + .toggle-label{
-  background-color: rgb(87, 80, 80);
+  background-color: #ecea7a;
 }
