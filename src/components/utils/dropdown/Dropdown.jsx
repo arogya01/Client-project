@@ -8,7 +8,7 @@ const Dropdown = ({
   value,
   disabled,
   setValue,
-  onChange,
+  onValueChange,
 }) => {
   return disabled ? (
     <DropdownContainer>
@@ -17,7 +17,7 @@ const Dropdown = ({
         width="218px"
         disabled
         onChange={(event) => {
-          onChange(event.target.value, setValue);
+          onValueChange(event.target.value, setValue);
         }}
       >
         {options.map((option) => {
@@ -35,7 +35,7 @@ const Dropdown = ({
       <SelectBox
         width="218px"
         onChange={(event) => {
-          onChange(event.target.value, setValue);
+          onValueChange(event.target.value, setValue);
         }}
       >
         {options.map((option) => {

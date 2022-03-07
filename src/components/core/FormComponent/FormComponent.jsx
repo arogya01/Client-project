@@ -92,7 +92,7 @@ const FormComponent = () => {
       </LinkButton>
 
       {btnClicked && (
-        <Terminal url={url} params={params} header={header} req={req} />
+        <Terminal url={url} params={params} header={[header]} req={req} />
       )}
     </FormComponentWrapper>
   );

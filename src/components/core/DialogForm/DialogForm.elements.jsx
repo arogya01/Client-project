@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DialogFormWrapper = styled.form`
+export const DialogFormWrapper = styled.div`
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -29,4 +29,18 @@ export const DialogWrapper= styled.main`
 export const DialogFormHeader = styled.header`
   padding: 1rem;
   font-weight: bold;
+`
+
+export const DialogTextArea=styled.textarea`
+  letter-spacing:1px;
+  font-family:"Fira Code", monospace;
+  padding:0.5rem; 
+  height:120px;
+`
+export const DialogFormBtnWrapper=styled.div`
+  
+  display:flex;
+  flex-flow:row nowrap;
+  padding:0.5rem 0;
+  justify-content:center;
 `

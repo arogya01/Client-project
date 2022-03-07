@@ -1,8 +1,17 @@
 import styled from "styled-components"
 
+
+export const TerminalWrapper=styled.div`
+    display:flex;
+    flex-flow:row nowrap;
+    width:100%;
+    justify-content:center;
+    margin:2rem 0;
+    `
+
 export const ResponseSectionWrapper=styled.div`
+border-radius:4px;
  width: 600px;
- height: 240px;
  padding: 1.5rem;
  background-color: #202124;
  color: #fff;

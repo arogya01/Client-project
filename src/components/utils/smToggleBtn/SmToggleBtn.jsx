@@ -1,14 +1,13 @@
-import React from "react";
-import "./styles.css";
+import React from 'react'
 
-export const Toggle = ({
-  isToggleValue,
-  setToggleValue
+export const SmToggleBtn = ({
+    isToggleValue,
+    setToggleValue
 }) => {
-  return (
-    <div className="toggle-wrapper">
+    return (
+        <div className="toggle-wrapper">
       <input
-        className="checker"
+        className="checkbox"
         type="checkbox"
         name="switch"
         id="switch"
@@ -17,5 +16,5 @@ export const Toggle = ({
       />
       <label htmlFor="switch" className="toggle-label"></label>
     </div>
-  );
-};
+    )
+}
