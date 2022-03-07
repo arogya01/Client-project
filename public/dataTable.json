@@ -1,10 +1,12 @@
+
 [
 {
    "name":"SDG_API_1",		
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest" ,
     "options":"...",
-    "env":"test"
+    "env":"test", 
+    "active":"true" 
        
 },
 {
@@ -12,48 +14,55 @@
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest"  ,
     "options":"...",
-    "env":"test"  
+    "env":"test", 
+    "active":"true"    
 },
 {
    "name":"SDG_API_1",		
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest",
     "options"  :"...",
-    "env":"test"  
+    "env":"test" , 
+    "active":"true" 
 },
 {
    "name":"SDG_API_1",		
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest",
     "options"  :"...",
-    "env":"test"  
+    "env":"test", 
+    "active":"true"  
 },
 {
    "name":"SDG_API_1",		
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest",
     "options"  :"...",
-    "env":"test"  
+    "env":"test", 
+    "active":"true"  
 },
 {
    "name":"SDG_API_1",		
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest",
     "options"  :"...",
-    "env":"test"  
+    "env":"test", 
+    "active":"true"  
 },
 {
    "name":"SDG_API_1",		
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest",
     "options"  :"...",
-    "env":"test"  
+    "env":"test", 
+    "active":"true"  
 },
 {
    "name":"SDG_API_1",		
    "creationDate":"09/29/2019 9:42 am",		
     "type":"Rest",
     "options" :"...",
-    "env":"test"   
+    "env":"test" , 
+    "active":"true"  
 }
 ]
